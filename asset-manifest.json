@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-new-year-countdown/static/css/main.1452c5a7.css",
+    "main.js": "/react-new-year-countdown/static/js/main.d68bd63f.js",
+    "static/js/787.042f720c.chunk.js": "/react-new-year-countdown/static/js/787.042f720c.chunk.js",
+    "static/media/happy-new-year-banner.png": "/react-new-year-countdown/static/media/happy-new-year-banner.e460566b72b9642dde30.png",
+    "index.html": "/react-new-year-countdown/index.html",
+    "main.1452c5a7.css.map": "/react-new-year-countdown/static/css/main.1452c5a7.css.map",
+    "main.d68bd63f.js.map": "/react-new-year-countdown/static/js/main.d68bd63f.js.map",
+    "787.042f720c.chunk.js.map": "/react-new-year-countdown/static/js/787.042f720c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1452c5a7.css",
+    "static/js/main.d68bd63f.js"
+  ]
+}
