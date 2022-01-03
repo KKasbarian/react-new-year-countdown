@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url('./happy-new-year-banner.png') center no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+span {
+    color: #fff;
+}
+
+.countdown-title {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.countdown-content {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 40px;
+}
+
+.countdown-content .interval-container {
+    position: relative;
+    margin: 0 50px;
+}
+
+.countdown-content .interval-container:after {
+    content: ':';
+    position: absolute;
+    top: -25px;
+    right: -60px;
+    font-size: 100px;
+}
+
+.countdown-content .interval-container:last-child:after {
+    content: '';
+    display: none;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    body {
+        background: #000 url('./happy-new-year-banner.png') center no-repeat;
+    }
+
+    .countdown-content {
+        flex-wrap: wrap;
+        font-size: 50px;
+    }
+    
+    .countdown-content .interval-container {
+        flex-basis: 47%;
+        margin: 50px 0;
+    }
+
+    .countdown-content .interval-container:after {
+        content: '';
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .countdown-content {
+        flex-wrap: wrap;
+        font-size: 35px;
+    }
+}
